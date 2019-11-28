@@ -3,7 +3,7 @@ import axios from "axios";
 
 class Joke extends React.Component {
   state = {
-    joke: null
+    joke: null //get joke if not give null
   };
 
   componentDidMount = async () => {
